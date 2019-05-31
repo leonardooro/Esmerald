@@ -21,7 +21,7 @@ ul, ol {
   list-style: none; }
 
 header, nav, article,
-section, aside, footer {
+section1, aside, footer {
   display: block; }
 
 figure {
@@ -697,30 +697,30 @@ input[type="checkbox"] {
     text-align: center; }
 
 /*-----------------------
-  	SECTION HEADLINE
+  	SECTION1 HEADLINE
 -----------------------*/
-.section-headline-wrap {
+.section1-headline-wrap {
   background: url("../images/section_headline_bg.png") no-repeat center, linear-gradient(to right, #05e6aa, #1cbdf9);
   background-size: cover; }
-  .section-headline-wrap.v2 {
+  .section1-headline-wrap.v2 {
     background: url("../images/section_headline_bg.png") no-repeat center, linear-gradient(to right, #f21c5e, #1cc1e4); }
-  .section-headline-wrap.v3 {
+  .section1-headline-wrap.v3 {
     background: url("../images/section_headline_bg.png") no-repeat center, linear-gradient(to right, #1595de, #00dcdd); }
 
-.section-headline {
+.section1-headline {
   height: 90px;
   padding: 0 30px;
   overflow: hidden; }
-  .section-headline h2 {
+  .section1-headline h2 {
     float: left;
     line-height: 90px; }
-  .section-headline p {
+  .section1-headline p {
     float: right;
     color: #fff;
     line-height: 90px; }
-    .section-headline p .separator {
+    .section1-headline p .separator {
       margin: 0 13px; }
-    .section-headline p .current-section {
+    .section1-headline p .current-section1 {
       font-weight: 700; }
 
 /*--------------------
@@ -956,8 +956,8 @@ input[type="checkbox"] {
 header, .menu-bar, .banner, #services,
 #product-sideshow, #subscribe-banner,
 #footer-top, #footer-bottom,
-.category-nav, .section-headline,
-.section, .sidebar-nav, .author-profile-meta,
+.category-nav, .section1-headline,
+.section1, .sidebar-nav, .author-profile-meta,
 .dashboard-content {
   max-width: 1170px;
   width: 95%;
@@ -1757,14 +1757,14 @@ header, .menu-bar, .banner, #services,
           margin-right: 0; }
 
   /*-----------------------
-    	SECTION HEADLINE
+    	SECTION1 HEADLINE
   -----------------------*/
-  .section-headline {
+  .section1-headline {
     padding: 0; }
-    .section-headline h2 {
+    .section1-headline h2 {
       float: none;
       text-align: center; }
-    .section-headline p {
+    .section1-headline p {
       display: none; }
 
   /*--------------------
@@ -3115,40 +3115,40 @@ header {
         .product-list.grid.v4 .product-item .product-info .price {
           font-size: 1.625em;
           top: 194px; } }
-.section-wrap {
+.section1-wrap {
   background-color: #f5f5f5; }
 
-.section {
+.section1 {
   padding: 60px 0 90px;
   overflow: hidden; }
-  .section.overflowable {
+  .section1.overflowable {
     overflow: visible; }
-  .section .sidebar {
+  .section1 .sidebar {
     float: left; }
-    .section .sidebar.author-profile {
+    .section1 .sidebar.author-profile {
       position: relative;
       top: -242px; }
-  .section .content {
+  .section1 .content {
     float: right;
     width: 870px; }
-    .section .content.full {
+    .section1 .content.full {
       width: 100%;
       float: none; }
-      .section .content.full .pager {
+      .section1 .content.full .pager {
         float: none;
         margin-right: auto;
         margin-left: auto; }
-    .section .content.left {
+    .section1 .content.left {
       float: left; }
-    .section .content .pager {
+    .section1 .content .pager {
       float: right;
       margin-top: 34px; }
-  .section .pager {
+  .section1 .pager {
     width: 174px;
     margin: 34px auto 0; }
-  .section > .product-showcase {
+  .section1 > .product-showcase {
     margin-bottom: 34px; }
-    .section > .product-showcase:last-child {
+    .section1 > .product-showcase:last-child {
       margin-bottom: 0; }
 
 .sidebar {
@@ -3403,23 +3403,23 @@ header {
   	MEDIA QUERIES
 -------------------*/
 @media screen and (max-width: 1260px) {
-  .section .content, .section .sidebar {
+  .section1 .content, .section1 .sidebar {
     float: none;
     width: 100%; }
-    .section .content.left, .section .content.right, .section .sidebar.left, .section .sidebar.right {
+    .section1 .content.left, .section1 .content.right, .section1 .sidebar.left, .section1 .sidebar.right {
       float: none; }
-  .section .sidebar {
+  .section1 .sidebar {
     margin-bottom: 40px; }
-    .section .sidebar .sidebar-item.author-items .column4-wrap .column {
+    .section1 .sidebar .sidebar-item.author-items .column4-wrap .column {
       width: 270px; }
-    .section .sidebar .sidebar-item.author-items .product-item {
+    .section1 .sidebar .sidebar-item.author-items .product-item {
       border: 1px solid #ebebeb;
       margin-bottom: 20px; }
-    .section .sidebar .sidebar-item.buttons {
+    .section1 .sidebar .sidebar-item.buttons {
       width: 270px;
       margin-left: auto;
       margin-right: auto; }
-  .section .content .pager {
+  .section1 .content .pager {
     float: none;
     margin: 34px auto 60px; }
 
@@ -3444,91 +3444,91 @@ header {
       .dashboard-content .headline.statement .button:nth-child(2) {
         margin-top: 0; } }
 @media screen and (max-width: 935px) {
-  .section .content .headline, .dashboard-content .headline {
+  .section1 .content .headline, .dashboard-content .headline {
     height: 175px;
     padding: 0; }
-    .section .content .headline:before, .dashboard-content .headline:before {
+    .section1 .content .headline:before, .dashboard-content .headline:before {
       height: 175px; }
-    .section .content .headline.filter, .dashboard-content .headline.filter {
+    .section1 .content .headline.filter, .dashboard-content .headline.filter {
       height: 130px; }
-      .section .content .headline.filter:before, .dashboard-content .headline.filter:before {
+      .section1 .content .headline.filter:before, .dashboard-content .headline.filter:before {
         height: 130px; }
-      .section .content .headline.filter form, .dashboard-content .headline.filter form {
+      .section1 .content .headline.filter form, .dashboard-content .headline.filter form {
         width: 200px;
         margin-top: 0; }
-    .section .content .headline.purchases form, .dashboard-content .headline.purchases form {
+    .section1 .content .headline.purchases form, .dashboard-content .headline.purchases form {
       margin-top: 0; }
-    .section .content .headline.purchases .select-block:nth-child(2), .dashboard-content .headline.purchases .select-block:nth-child(2) {
+    .section1 .content .headline.purchases .select-block:nth-child(2), .dashboard-content .headline.purchases .select-block:nth-child(2) {
       margin-right: 0; }
-    .section .content .headline.purchases .search-form, .dashboard-content .headline.purchases .search-form {
+    .section1 .content .headline.purchases .search-form, .dashboard-content .headline.purchases .search-form {
       margin-left: 60px; }
-    .section .content .headline.statement, .dashboard-content .headline.statement {
+    .section1 .content .headline.statement, .dashboard-content .headline.statement {
       height: 260px; }
-      .section .content .headline.statement:before, .dashboard-content .headline.statement:before {
+      .section1 .content .headline.statement:before, .dashboard-content .headline.statement:before {
         height: 260px; }
-      .section .content .headline.statement form .datepicker-wrap:first-child, .dashboard-content .headline.statement form .datepicker-wrap:first-child {
+      .section1 .content .headline.statement form .datepicker-wrap:first-child, .dashboard-content .headline.statement form .datepicker-wrap:first-child {
         margin-left: 42px; }
-      .section .content .headline.statement form .select-block, .dashboard-content .headline.statement form .select-block {
+      .section1 .content .headline.statement form .select-block, .dashboard-content .headline.statement form .select-block {
         float: none;
         margin-top: 12px; }
-    .section .content .headline h4, .dashboard-content .headline h4 {
+    .section1 .content .headline h4, .dashboard-content .headline h4 {
       float: none;
       text-align: center; }
-    .section .content .headline form, .dashboard-content .headline form {
+    .section1 .content .headline form, .dashboard-content .headline form {
       float: none;
       width: 410px;
       margin: 20px auto 0; }
-    .section .content .headline .select-block:last-child, .dashboard-content .headline .select-block:last-child {
+    .section1 .content .headline .select-block:last-child, .dashboard-content .headline .select-block:last-child {
       margin-right: 0; }
-    .section .content .headline .view-selectors, .dashboard-content .headline .view-selectors {
+    .section1 .content .headline .view-selectors, .dashboard-content .headline .view-selectors {
       float: none;
       width: 66px;
       margin: 0 auto; }
-    .section .content .headline.simple, .dashboard-content .headline.simple {
+    .section1 .content .headline.simple, .dashboard-content .headline.simple {
       height: 66px; }
-      .section .content .headline.simple:before, .dashboard-content .headline.simple:before {
+      .section1 .content .headline.simple:before, .dashboard-content .headline.simple:before {
         height: 66px; }
-    .section .content .headline.buttons, .dashboard-content .headline.buttons {
+    .section1 .content .headline.buttons, .dashboard-content .headline.buttons {
       height: 120px; }
-      .section .content .headline.buttons.two, .dashboard-content .headline.buttons.two {
+      .section1 .content .headline.buttons.two, .dashboard-content .headline.buttons.two {
         height: 175px; }
-        .section .content .headline.buttons.two:before, .dashboard-content .headline.buttons.two:before {
+        .section1 .content .headline.buttons.two:before, .dashboard-content .headline.buttons.two:before {
           height: 175px; }
-        .section .content .headline.buttons.two .button + .button, .dashboard-content .headline.buttons.two .button + .button {
+        .section1 .content .headline.buttons.two .button + .button, .dashboard-content .headline.buttons.two .button + .button {
           margin-top: 14px; }
-      .section .content .headline.buttons:before, .dashboard-content .headline.buttons:before {
+      .section1 .content .headline.buttons:before, .dashboard-content .headline.buttons:before {
         height: 120px; }
-      .section .content .headline.buttons .button, .dashboard-content .headline.buttons .button {
+      .section1 .content .headline.buttons .button, .dashboard-content .headline.buttons .button {
         float: none;
         margin: 0 auto; } }
 @media screen and (max-width: 630px) {
-  .section .content .headline, .dashboard-content .headline {
+  .section1 .content .headline, .dashboard-content .headline {
     height: 220px; }
-    .section .content .headline:before, .dashboard-content .headline:before {
+    .section1 .content .headline:before, .dashboard-content .headline:before {
       height: 220px; }
-    .section .content .headline form, .dashboard-content .headline form {
+    .section1 .content .headline form, .dashboard-content .headline form {
       width: 200px; }
-    .section .content .headline .select-block, .dashboard-content .headline .select-block {
+    .section1 .content .headline .select-block, .dashboard-content .headline .select-block {
       float: none;
       margin-right: 0; }
-    .section .content .headline.purchases .search-form, .dashboard-content .headline.purchases .search-form {
+    .section1 .content .headline.purchases .search-form, .dashboard-content .headline.purchases .search-form {
       width: 198px;
       margin-left: 0;
       margin-right: 0; }
-    .section .content .headline.statement, .dashboard-content .headline.statement {
+    .section1 .content .headline.statement, .dashboard-content .headline.statement {
       height: 340px; }
-      .section .content .headline.statement:before, .dashboard-content .headline.statement:before {
+      .section1 .content .headline.statement:before, .dashboard-content .headline.statement:before {
         height: 340px; }
-      .section .content .headline.statement form, .dashboard-content .headline.statement form {
+      .section1 .content .headline.statement form, .dashboard-content .headline.statement form {
         width: 220px; }
-        .section .content .headline.statement form label:nth-child(2), .dashboard-content .headline.statement form label:nth-child(2) {
+        .section1 .content .headline.statement form label:nth-child(2), .dashboard-content .headline.statement form label:nth-child(2) {
           float: none;
           clear: both;
           margin: 12px 0;
           line-height: 1em; }
-        .section .content .headline.statement form .datepicker-wrap, .dashboard-content .headline.statement form .datepicker-wrap {
+        .section1 .content .headline.statement form .datepicker-wrap, .dashboard-content .headline.statement form .datepicker-wrap {
           margin-left: 36px; }
-          .section .content .headline.statement form .datepicker-wrap:first-child, .dashboard-content .headline.statement form .datepicker-wrap:first-child {
+          .section1 .content .headline.statement form .datepicker-wrap:first-child, .dashboard-content .headline.statement form .datepicker-wrap:first-child {
             margin: 0 0 12px 36px; } }
 /*-----------------------
   	BLOG POST PREVIEW
@@ -4405,7 +4405,7 @@ header {
         .author-profile-info .author-profile-info-item p .tertiary {
           color: #e61852; }
 
-  .section .sidebar.author-profile {
+  .section1 .sidebar.author-profile {
     position: static; } }
 @media screen and (max-width: 935px) {
   .follow-list {
@@ -4437,14 +4437,14 @@ header {
           padding: 0; }
           .follow-list .follow-list-item .fl-item-info.fl-button .button {
             margin: 0 auto; } }
-.section.demo {
+.section1.demo {
   overflow: visible; }
-  .section.demo .form-popup {
+  .section1.demo .form-popup {
     margin-bottom: 60px; }
-    .section.demo .form-popup:nth-child(odd) {
+    .section1.demo .form-popup:nth-child(odd) {
       float: left;
       clear: both; }
-    .section.demo .form-popup:nth-child(even) {
+    .section1.demo .form-popup:nth-child(even) {
       float: right; }
 
 .form-popup {
@@ -4591,11 +4591,11 @@ header {
       top: 2px; }
 
 @media screen and (max-width: 1260px) {
-  .section.demo .form-popup {
+  .section1.demo .form-popup {
     margin: 0 auto 60px; }
-    .section.demo .form-popup:nth-child(odd) {
+    .section1.demo .form-popup:nth-child(odd) {
       float: none; }
-    .section.demo .form-popup:nth-child(even) {
+    .section1.demo .form-popup:nth-child(even) {
       float: none; } }
 @media screen and (max-width: 935px) {
   .form-popup.promo {
