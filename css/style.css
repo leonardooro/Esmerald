@@ -1048,7 +1048,7 @@ header, .menu-bar, .banner, #services,
   	USER INFORMATION
 -----------------------*/
 .user-name, .user-money {
-  line-height: 1em; }
+  line-height: 0.9em; }
 
 .user-name {
   color: #fff;
