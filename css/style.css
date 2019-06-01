@@ -1048,7 +1048,7 @@ header, .menu-bar, .banner, #services,
   	USER INFORMATION
 -----------------------*/
 .user-name, .user-money {
-  line-height: 0.9em; }
+  line-height: 1em; }
 
 .user-name {
   color: #fff;
@@ -1056,7 +1056,7 @@ header, .menu-bar, .banner, #services,
 
 .user-money {
   color: #16ffd8;
-  font-size: 1em; }
+  font-size: 0.9em; }
 
 /*------------
   	RATING
