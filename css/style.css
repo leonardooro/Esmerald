@@ -2062,7 +2062,7 @@ header {
       left: 0; }
 
 .content-dropdown {
-  padding: 25px 40px 40px;
+  padding: 25px 0px 40px 40px;
   background-color: #fff;
   border: 1px solid #ebebeb;
   position: absolute;
